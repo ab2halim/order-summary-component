@@ -1,0 +1,112 @@
+body{
+  background-image: url("../images/pattern-background-desktop.svg");
+  background-repeat: no-repeat;
+  background-position: top;
+  background-color: hsl(225, 100%, 94%);
+  text-align: center;
+  font-family: 'Red Hat Display', sans-serif;
+  font-size: 16px;
+}
+
+
+.main{
+  width: 450px;
+  height: 697px;
+  background-color: hsl(225, 100%, 98%);
+  margin: 100px auto;
+  border-radius: 20px;
+  box-shadow: 0 25px 25px -30px hsl(224, 23%, 55%);
+  position: relative;
+}
+
+.header{
+  width: 100%;
+  border-radius: 20px 20px 0 0;
+}
+
+h1{
+  color: hsl(223, 47%, 23%);
+  font-size: 28px;
+  font-weight: 900;
+  margin: 40px auto 20px;
+}
+
+.content{
+  color: hsl(224, 23%, 55%);
+  font-size: 16px;
+  font-weight: 500;
+  padding: 0 50px;
+  line-height: 1.5;
+}
+
+.music-icon{
+  position: absolute;
+  left: 72px;
+  bottom: 207px;
+}
+
+h2{
+  color: hsl(223, 47%, 23%);
+  font-weight: 900;
+  margin: 47px auto 0;
+  padding-right: 80px;
+  font-size: 16px;
+}
+
+.price{
+  color: hsl(224, 23%, 55%);
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: 5px;
+  padding-right: 80px;
+}
+
+.change{
+  color: hsl(245, 75%, 52%);
+  font-size: 14px;
+  font-weight: 900;
+  position: absolute;
+  right: 72px;
+  bottom: 222px;
+}
+
+.change:hover{
+  color: hsl(244, 68%, 82%);
+  text-decoration: none;
+}
+
+.btn {
+  border-radius: 10px;
+  font-weight: 700;
+  color: hsl(225, 100%, 98%);
+  background: hsl(245, 75%, 52%);
+  padding: 15px 100px 15px 100px;
+  text-decoration: none;
+  position: absolute;
+  bottom: 100px;
+  right: 47px;
+}
+
+.btn:hover {
+  background: hsl(244, 68%, 82%);
+  text-decoration: none;
+}
+
+.cancel{
+  color: hsl(224, 23%, 55%);
+  font-weight: 700;
+  font-size: 16px;
+  text-decoration: none;
+  position: absolute;
+  right:  176px;
+  bottom:  49px;
+}
+
+.cancel:hover{
+  color: hsl(223, 47%, 23%);
+  text-decoration: none;
+}
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
